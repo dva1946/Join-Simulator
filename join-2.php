@@ -1,20 +1,22 @@
 <?php  
-/*
-Template Name: Join 2
-script_name: join-2.php
-parent_script_name: join-1.php 
-page_name: Join 2
-application_name: Registration Page
-business_use: Tightly managed registration page for new users.
-author: Dave Van Abel
-dev_site: gvaz.org
-create_date: 2020-08-13
-last_update_date: 2022-04-25 
-base_note: 03-24-21
-status: Complete
-license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
+/**
+ * Template Name: Join 2
+ * script_name: join-2.php
+ * parent_script_name: join-1.php 
+ * page_name: Join 2
+ * application_name: Registration Page
+ * business_use: Tightly managed registration page for new users.
+ * author: Dave Van Abel
+ * dev_site: gvaz.org
+ * create_date: 2020-08-13
+ * last_update_date: 2022-09-30 
+ * base_note: 03-24-21
+ * status: Complete
+ * license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
 */
 /*
+09-30-22: Reading -> https://wpappsforthat.com/index.php/registration-join-simulator-slideshow/
+09-30-22: Reading -> https://wpappsforthat.com/index.php/registration-join-simulator-code-slideshow/
 04-25-22: Cleanup for strictly a SIMULATOR APP!
 04-19-22: remodelling for a new WpAppsForThat.Com Simulator
 04-21-22: update wp_usermeta, add "wp_usermeta.simulator" for managing member-update-profile.php

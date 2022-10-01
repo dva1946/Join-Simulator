@@ -1,21 +1,23 @@
 <?php
-/*
-Template Name: Join Simulator
-script_name: join-simulator.php          
-parent_script_name: 
-page_name: Join Simulator
-application_name: Join Simulator
-business_use: Tightly managed registration page for new users.
-author: Dave Van Abel
-dev_site: wpappsforthat.com
-create_date: 2020-08-13
-last_update_date: 2022-09-28
-base_note: Utility for creating memberships
-status: Complete
-license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
-*/
+/**
+ * Template Name: Join Simulator
+ * script_name: join-simulator.php          
+ * parent_script_name: 
+ * page_name: Join Simulator
+ * application_name: Join Simulator
+ * business_use: Tightly managed registration page for new users.
+ * author: Dave Van Abel
+ * dev_site: wpappsforthat.com
+ * create_date: 2020-08-13
+ * last_update_date: 2022-09-28
+ * base_note: Utility for creating memberships
+ * status: Complete
+ * license: GNU General Public License version 3 https://opensource.org/licenses/GPL-3.0
+ * */
 // Copyright Dave Van Abel, 2020 / 2021 / 2022
 /*
+09-30-22: Reading -> https://wpappsforthat.com/index.php/registration-join-simulator-slideshow/
+09-30-22: Reading -> https://wpappsforthat.com/index.php/registration-join-simulator-code-slideshow/
 09-28-22: Spelling correction.
 04-25-22: If this app is hidden from a LOGGED IN MENU, it can not run for a logged in user.
 04-21-22: update wp_usermeta, add "wp_usermeta.simulator" for managing member-update-profile.php
